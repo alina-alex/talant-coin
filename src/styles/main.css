@@ -1,0 +1,123 @@
+body {
+  background: #fff; }
+
+h1 {
+  font-size: 126px;
+  color: #fff;
+  text-shadow: 0px 6px 10px rgba(0, 0, 0, 0.41);
+  margin: 0 0 120px; }
+
+h3 {
+  color: #536AB5;
+  font-size: 34px;
+  text-align: left; }
+
+.lineBlue {
+  transform: rotate(90deg);
+  width: 310px;
+  height: 2px;
+  position: absolute;
+  right: -25%;
+  top: 55%; }
+
+.about-us_line {
+  width: 145px; }
+
+header {
+  min-height: 100px; }
+  header .d-flex,
+  header .container {
+    height: 100%; }
+  header .main-button {
+    border: 1px solid #536AB5;
+    background: #fff;
+    font-size: 14px;
+    color: #536AB5;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 10px; }
+  header .header-link {
+    color: #2C2D31;
+    font-size: 18px;
+    text-decoration: none; }
+
+main .banner {
+  min-height: 1050px;
+  background: #536AB5; }
+  main .banner .link-banner {
+    border: 1px solid #D11216;
+    color: #D11216;
+    font-size: 30px;
+    background: #fff;
+    border-radius: 35px;
+    padding: 10px 70px;
+    margin: 0 auto 40px; }
+  main .banner .scroll {
+    width: 30px;
+    height: 50px;
+    background: #fff;
+    display: block;
+    margin: 50px auto; }
+  main .banner .banner-block {
+    width: 90%;
+    padding: 0 40px 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; }
+  main .banner .banner-text {
+    color: #fff;
+    font-size: 24px;
+    text-align: left; }
+  main .banner .line {
+    position: absolute;
+    width: 340px;
+    transform: rotate(90deg);
+    right: -41%;
+    top: 50%; }
+
+.SecondBlock {
+  margin-top: 100px; }
+
+.text {
+  color: #2C2D31;
+  font-size: 20px;
+  text-align: left; }
+  .text span {
+    font-size: 42px; }
+
+.about-us .about-us_name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #536AB5;
+  margin-bottom: 0; }
+.about-us .about-us_specialization {
+  font-size: 18px;
+  color: #536AB5;
+  font-style: italic;
+  margin-top: 0; }
+.about-us .about-us_text {
+  color: #95989A;
+  font-size: 20px;
+  text-align: left; }
+
+footer .footer_channel {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 10px; }
+footer .footer_channel-link {
+  color: #2C2D31;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative; }
+  footer .footer_channel-link:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-bottom: 1px solid #2C2D31;
+    transition: 0.3s; }
+  footer .footer_channel-link:hover:after {
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

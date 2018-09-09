@@ -1,0 +1,151 @@
+$moderate-blue : #536AB5;
+$white-color: #fff;
+$very_dark: #2C2D31;
+$font-size : 14px;
+$strong-red :#D11216;
+$blue: #A5BCD8;
+$grey: #95989A;
+
+body{
+  background: #fff;
+}
+h1{
+  font-size: $font-size * 9;
+  color: $white-color;
+  text-shadow:0px 6px 10px rgba(0,0,0,0.41);
+  margin: 0 0 120px;
+}
+h3{
+  color: $moderate-blue;
+  font-size: $font-size*2+6;
+  text-align: left;
+}
+.lineBlue{
+  transform: rotate(90deg);
+  width: 310px;
+  height: 2px;
+  position: absolute;
+  right: -25%;
+  top: 55%;
+}
+.about-us_line{
+  width: 145px;
+}
+header{
+  min-height: 100px;
+  .d-flex,
+  .container{
+    height: 100%;
+  }
+  .main-button{
+    border: 1px solid $moderate-blue;
+    background: $white-color;
+    font-size: $font-size;
+    color: $moderate-blue;
+    border-radius: $font-size + 6px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  .header-link{
+    color: $very_dark;
+    font-size: $font-size + 4px;
+    text-decoration: none;
+  }
+}
+main{
+  .banner{
+    min-height: 1050px;
+    background: $moderate-blue;
+    .link-banner{
+      border: 1px solid $strong-red;
+      color: $strong-red;
+      font-size: $font-size*2+2px;
+      background: $white-color;
+      border-radius: 35px;
+      padding: 10px 70px;
+      margin: 0 auto 40px;
+    }
+    .scroll{
+      width: 30px;
+      height: 50px;
+      background: $white-color;
+      display: block;
+      margin: 50px auto;
+    }
+    .banner-block{
+      width: 90%;
+      padding: 0 40px 50px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .banner-text{
+      color: $white-color;
+      font-size: $font-size + 10;
+      text-align: left;
+    }
+    .line{
+      position: absolute;
+      width: 340px;
+      transform: rotate(90deg);
+      right: -41%;
+      top: 50%;
+    }
+  }
+}
+.SecondBlock{
+  margin-top: 100px;
+}
+.text{
+  color: $very_dark;
+  font-size: $font-size + 6;
+  text-align: left;
+  span{
+    font-size: $font-size*3;
+  }
+}
+
+.about-us{
+  .about-us_name{
+    font-size: $font-size + 10;
+    font-weight: bold;
+    color: $moderate-blue;
+    margin-bottom: 0;
+  }
+  .about-us_specialization{
+    font-size: $font-size + 4;
+    color: $moderate-blue;
+    font-style: italic;
+    margin-top: 0;
+  }
+  .about-us_text{
+    color: $grey;
+    font-size: $font-size + 6;
+    text-align: left;
+  }
+}
+footer{
+  .footer_channel {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+    .footer_channel-link {
+      color: $very_dark;
+      font-size: $font-size + 2;
+      text-decoration: none;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border-bottom: 1px solid $very_dark;
+        transition: 0.3s;
+      }
+      &:hover:after {
+        width: 100%;
+      }
+  }
+}
