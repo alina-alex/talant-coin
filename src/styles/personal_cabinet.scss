@@ -1,0 +1,37 @@
+$moderate-blue : #536AB5;
+$white-color: #fff;
+$very_dark: #2C2D31;
+$font-size : 14px;
+$strong-red :#D11216;
+$blue: #A5BCD8;
+$grey: #95989A;
+
+.personal-information{
+  h3{
+    margin: 0;
+  }
+  .personal-information-link{
+    a{
+      color: $grey;
+      font-size: $grey + 2;
+      text-decoration: none;
+      position: relative;
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border-bottom: 1px solid $grey;
+        transition: 0.3s;
+      }
+      &:hover:after {
+        width: 100%;
+      }
+    }
+    span{
+      color: $grey;
+      margin: 0 15px;
+    }
+  }
+}

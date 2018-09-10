@@ -1,0 +1,22 @@
+.personal-information h3 {
+  margin: 0; }
+.personal-information .personal-information-link a {
+  color: #95989A;
+  font-size: #979a9c;
+  text-decoration: none;
+  position: relative; }
+  .personal-information .personal-information-link a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-bottom: 1px solid #95989A;
+    transition: 0.3s; }
+  .personal-information .personal-information-link a:hover:after {
+    width: 100%; }
+.personal-information .personal-information-link span {
+  color: #95989A;
+  margin: 0 15px; }
+
+/*# sourceMappingURL=personal_cabinet.css.map */
