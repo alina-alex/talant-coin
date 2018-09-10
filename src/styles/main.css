@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
-  background: #fff; }
+  background: #fff;
+  font-family: 'Montserrat', sans-serif; }
 
 h1 {
   font-size: 160px;
@@ -69,7 +71,21 @@ header {
   header .header-link {
     color: #2C2D31;
     font-size: 18px;
-    text-decoration: none; }
+    text-decoration: none;
+    position: relative; }
+    header .header-link:hover {
+      color: #536AB5;
+      transition: 0.3s; }
+    header .header-link:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      border-bottom: 1px solid #536AB5;
+      transition: 0.3s; }
+    header .header-link:hover:after {
+      width: 100%; }
 
 main {
   overflow: hidden; }
@@ -122,7 +138,7 @@ main {
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
       position: relative;
-      margin-top: -3%;
+      margin-top: -1%;
       background: rgba(183, 222, 237, 0);
       background: -moz-linear-gradient(top, rgba(183, 222, 237, 0) 0%, rgba(113, 206, 239, 0) 0%, rgba(33, 180, 226, 0) 0%, rgba(165, 188, 216, 0) 0%, #a5bcd8 100%);
       background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183, 222, 237, 0)), color-stop(0%, rgba(113, 206, 239, 0)), color-stop(0%, rgba(33, 180, 226, 0)), color-stop(0%, rgba(165, 188, 216, 0)), color-stop(100%, #a5bcd8));
@@ -133,7 +149,8 @@ main {
     main .banner .banner-text {
       color: #fff;
       font-size: 24px;
-      text-align: left; }
+      text-align: left;
+      font-family: 'Montserrat', sans-serif; }
     main .banner .line {
       position: absolute;
       width: 340px;
@@ -208,7 +225,8 @@ main {
 .text {
   color: #2C2D31;
   font-size: 20px;
-  text-align: left; }
+  text-align: left;
+  font-family: 'Montserrat', sans-serif; }
   .text span {
     font-size: 42px; }
 
@@ -216,12 +234,14 @@ main {
   font-size: 24px;
   font-weight: bold;
   color: #536AB5;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  text-align: center; }
 .about-us .about-us_specialization {
   font-size: 18px;
   color: #536AB5;
   font-style: italic;
-  margin-top: 0; }
+  margin-top: 0;
+  text-align: center; }
 .about-us .about-us_text {
   color: #95989A;
   font-size: 20px;
@@ -231,6 +251,8 @@ footer {
   margin-top: 10%; }
   footer .SocialBlock {
     width: 100%; }
+  footer .footer_community {
+    padding: 0; }
   footer .footer_channel {
     list-style: none;
     text-align: left;
@@ -244,14 +266,18 @@ footer {
     color: #2C2D31;
     font-size: 16px;
     text-decoration: none;
-    position: relative; }
+    position: relative;
+    transition: 0.3s; }
+    footer .footer_channel-link:hover {
+      color: #536AB5;
+      transition: 0.3s; }
     footer .footer_channel-link:after {
       content: '';
       position: absolute;
       bottom: 0;
       left: 0;
       width: 0;
-      border-bottom: 1px solid #2C2D31;
+      border-bottom: 1px solid #536AB5;
       transition: 0.3s; }
     footer .footer_channel-link:hover:after {
       width: 100%; }

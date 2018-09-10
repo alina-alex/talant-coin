@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 $moderate-blue : #536AB5;
 $white-color: #fff;
 $very_dark: #2C2D31;
@@ -6,8 +8,10 @@ $strong-red :#D11216;
 $blue: #A5BCD8;
 $grey: #95989A;
 
+
 body{
   background: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 h1{
   font-size: 160px;
@@ -87,6 +91,23 @@ header{
     color: $very_dark;
     font-size: $font-size + 4px;
     text-decoration: none;
+    position: relative;
+    &:hover{
+      color: $moderate-blue;
+      transition: 0.3s;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      border-bottom: 1px solid $moderate-blue;
+      transition: 0.3s;
+    }
+    &:hover:after {
+      width: 100%;
+    }
   }
 }
 main{
@@ -148,7 +169,7 @@ main{
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
       position: relative;
-      margin-top: -3%;
+      margin-top: -1%;
       background: rgba(183,222,237,0);
       background: -moz-linear-gradient(top, rgba(183,222,237,0) 0%, rgba(113,206,239,0) 0%, rgba(33,180,226,0) 0%, rgba(165,188,216,0) 0%, rgba(165,188,216,1) 100%);
       background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,222,237,0)), color-stop(0%, rgba(113,206,239,0)), color-stop(0%, rgba(33,180,226,0)), color-stop(0%, rgba(165,188,216,0)), color-stop(100%, rgba(165,188,216,1)));
@@ -161,6 +182,7 @@ main{
       color: $white-color;
       font-size: $font-size + 10;
       text-align: left;
+      font-family: 'Montserrat', sans-serif;
     }
     .line{
       position: absolute;
@@ -273,6 +295,7 @@ main{
   color: $very_dark;
   font-size: $font-size + 6;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
   span{
     font-size: $font-size*3;
   }
@@ -284,12 +307,14 @@ main{
     font-weight: bold;
     color: $moderate-blue;
     margin-bottom: 0;
+    text-align: center;
   }
   .about-us_specialization{
     font-size: $font-size + 4;
     color: $moderate-blue;
     font-style: italic;
     margin-top: 0;
+    text-align: center;
   }
   .about-us_text{
     color: $grey;
@@ -301,6 +326,9 @@ footer{
   margin-top: 10%;
   .SocialBlock{
     width: 100%;
+  }
+  .footer_community{
+    padding: 0;
   }
   .footer_channel {
     list-style: none;
@@ -318,13 +346,18 @@ footer{
       font-size: $font-size + 2;
       text-decoration: none;
       position: relative;
+      transition: 0.3s;
+      &:hover{
+        color: $moderate-blue;
+        transition: 0.3s;
+      }
       &:after {
         content: '';
         position: absolute;
         bottom: 0;
         left: 0;
         width: 0;
-        border-bottom: 1px solid $very_dark;
+        border-bottom: 1px solid $moderate-blue;
         transition: 0.3s;
       }
       &:hover:after {
