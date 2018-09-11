@@ -41,6 +41,22 @@ h3 {
   width: 145px;
   border: 1px solid #95989A; }
 
+.link-banner {
+  border: 1px solid #D11216;
+  color: #D11216;
+  font-size: 30px;
+  background: #fff;
+  border-radius: 35px;
+  padding: 10px 70px;
+  margin: 0 auto 40px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s; }
+  .link-banner:hover {
+    transition: 0.3s;
+    color: #fff;
+    background: #D11216; }
+
 header {
   min-height: 100px;
   overflow: hidden;
@@ -103,21 +119,6 @@ main {
       position: absolute;
       left: 0;
       top: 0; }
-    main .banner .link-banner {
-      border: 1px solid #D11216;
-      color: #D11216;
-      font-size: 30px;
-      background: #fff;
-      border-radius: 35px;
-      padding: 10px 70px;
-      margin: 0 auto 40px;
-      position: relative;
-      cursor: pointer;
-      transition: 0.3s; }
-      main .banner .link-banner:hover {
-        transition: 0.3s;
-        color: #fff;
-        background: #D11216; }
     main .banner .scroll {
       width: 30px;
       height: 50px;

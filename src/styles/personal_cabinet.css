@@ -1,22 +1,136 @@
-.personal-information h3 {
-  margin: 0; }
-.personal-information .personal-information-link a {
-  color: #95989A;
-  font-size: #979a9c;
-  text-decoration: none;
-  position: relative; }
-  .personal-information .personal-information-link a:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    border-bottom: 1px solid #95989A;
-    transition: 0.3s; }
-  .personal-information .personal-information-link a:hover:after {
+.Personal_cabinet {
+  margin-top: 15%; }
+  .Personal_cabinet .d-flex {
+    flex-wrap: wrap; }
+  .Personal_cabinet .personal-information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px; }
+    .Personal_cabinet .personal-information .personal-information-link a {
+      color: #95989A;
+      font-size: 16px;
+      text-decoration: none;
+      position: relative; }
+      .Personal_cabinet .personal-information .personal-information-link a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        border-bottom: 1px solid #95989A;
+        transition: 0.3s; }
+      .Personal_cabinet .personal-information .personal-information-link a:hover:after {
+        width: 100%; }
+    .Personal_cabinet .personal-information .personal-information-link span {
+      color: #95989A;
+      margin: 0 15px; }
+  .Personal_cabinet .text-center {
+    text-align: center; }
+    .Personal_cabinet .text-center .wrapper {
+      margin: -45px 0 0; }
+      .Personal_cabinet .text-center .wrapper .wrapperFa {
+        color: #fff;
+        background: #536AB5;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .Personal_cabinet .text-center .wrapper .wrapperFa svg {
+          font-size: 22px; }
+  .Personal_cabinet .private-information .name {
+    font-weight: bold;
+    font-size: 32px;
+    color: #536AB5; }
+    .Personal_cabinet .private-information .name span {
+      color: #7FB021;
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 50px; }
+  .Personal_cabinet .private-information .oneStyle {
+    font-size: 20px;
+    color: #95989A; }
+  .Personal_cabinet .private-information .Lang {
+    font-weight: bold; }
+  .Personal_cabinet .private-information .download a {
+    font-size: 20px;
+    color: #536AB5;
+    text-decoration: none;
+    font-weight: bold; }
+  .Personal_cabinet .borderBlock {
+    border: 1px solid #95989A;
+    height: 140px;
+    width: 255px; }
+    .Personal_cabinet .borderBlock span {
+      color: #95989A;
+      font-size: 20px; }
+  .Personal_cabinet .name_company {
+    color: #95989A;
+    font-size: 26px;
+    text-align: center; }
+  .Personal_cabinet .link-banner {
+    font-size: 19px;
+    margin: 0; }
+  .Personal_cabinet .toDo {
+    font-size: 20px;
+    color: #536AB5;
+    margin-top: 100px; }
+    .Personal_cabinet .toDo a {
+      opacity: 0.4;
+      margin-left: 50px; }
+  .Personal_cabinet .checkbox {
+    font-size: 18px;
+    color: #95989A;
     width: 100%; }
-.personal-information .personal-information-link span {
-  color: #95989A;
-  margin: 0 15px; }
+    .Personal_cabinet .checkbox span {
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      border-radius: 3px;
+      border: 1px solid #95989A;
+      margin-right: 25px; }
+  .Personal_cabinet .margin-top {
+    margin-top: 75px; }
+  .Personal_cabinet .border-wrapper {
+    border: 1px solid #536AB5;
+    border-radius: 20px;
+    padding: 30px; }
+    .Personal_cabinet .border-wrapper img {
+      width: 100%; }
+    .Personal_cabinet .border-wrapper .headerTitle {
+      text-align: center;
+      margin: 30px 0; }
+      .Personal_cabinet .border-wrapper .headerTitle a {
+        font-size: 24px;
+        color: #536AB5;
+        text-decoration: none; }
+    .Personal_cabinet .border-wrapper .textDescription {
+      color: #95989A;
+      font-size: 20px;
+      text-align: justify; }
+      .Personal_cabinet .border-wrapper .textDescription span {
+        font-weight: 700; }
+    .Personal_cabinet .border-wrapper .more {
+      margin-top: 50px;
+      text-align: right; }
+      .Personal_cabinet .border-wrapper .more a {
+        color: #95989A;
+        font-size: 20px; }
+  .Personal_cabinet .border-wrapper-add {
+    border: 1px solid #D11216;
+    border-radius: 20px;
+    padding: 30px;
+    height: 100%; }
+    .Personal_cabinet .border-wrapper-add .plus {
+      color: #D11216;
+      font-size: 50px;
+      text-align: center;
+      margin-top: 215%; }
+    .Personal_cabinet .border-wrapper-add .text {
+      color: #D11216;
+      font-size: 10px;
+      text-align: center; }
 
 /*# sourceMappingURL=personal_cabinet.css.map */

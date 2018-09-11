@@ -6,32 +6,180 @@ $strong-red :#D11216;
 $blue: #A5BCD8;
 $grey: #95989A;
 
-.personal-information{
-  h3{
-    margin: 0;
+.Personal_cabinet {
+  margin-top: 15%;
+  .d-flex{
+    flex-wrap: wrap;
   }
-  .personal-information-link{
-    a{
-      color: $grey;
-      font-size: $grey + 2;
-      text-decoration: none;
-      position: relative;
-      &:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 0;
-        border-bottom: 1px solid $grey;
-        transition: 0.3s;
+  .personal-information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    .personal-information-link {
+      a {
+        color: $grey;
+        font-size: $font-size + 2;
+        text-decoration: none;
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0;
+          border-bottom: 1px solid $grey;
+          transition: 0.3s;
+        }
+        &:hover:after {
+          width: 100%;
+        }
       }
-      &:hover:after {
-        width: 100%;
+      span {
+        color: $grey;
+        margin: 0 15px;
       }
     }
+  }
+  .text-center{
+    text-align: center;
+    .wrapper {
+      margin: -45px 0 0;
+      .wrapperFa {
+        color: $white-color;
+        background: $moderate-blue;
+        border-radius: 50%;
+        cursor: pointer;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .private-information{
+    .name{
+      font-weight: bold;
+      font-size: 32px;
+      color: $moderate-blue;
+      span{
+        color: #7FB021;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 50px;
+      }
+    }
+      .oneStyle{
+        font-size: 20px;
+        color: $grey;
+      }
+      .Lang{
+        font-weight: bold;
+      }
+      .download{
+        a {
+          font-size: 20px;
+          color: $moderate-blue;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      }
+
+  }
+  .borderBlock{
+    border: 1px solid $grey;
+    height: 140px;
+    width: 255px;
+      span{
+        color: $grey;
+        font-size: 20px;
+      }
+  }
+  .name_company{
+    color: $grey;
+    font-size: 26px;
+    text-align: center;
+  }
+  .link-banner{
+    font-size: 19px;
+    margin: 0;
+  }
+  .toDo{
+    font-size: 20px;
+    color: $moderate-blue;
+    margin-top: 100px;
+    a{
+      opacity: 0.4;
+      margin-left: 50px;
+    }
+  }
+  .checkbox{
+    font-size: 18px;
+    color: $grey;
+    width: 100%;
     span{
+      display: inline-block;
+      width: 22px;
+      height: 22px;
+      border-radius: 3px;
+      border: 1px solid $grey;
+      margin-right: 25px;
+    }
+  }
+  .margin-top{
+    margin-top: 75px;
+  }
+  .border-wrapper{
+    border: 1px solid $moderate-blue;
+    border-radius: 20px;
+    padding: 30px;
+    img{
+      width: 100%;
+    }
+    .headerTitle{
+      text-align: center;
+      margin: 30px 0;
+      a {
+        font-size: 24px;
+        color: $moderate-blue;
+        text-decoration: none;
+      }
+    }
+    .textDescription{
       color: $grey;
-      margin: 0 15px;
+      font-size: 20px;
+      text-align: justify;
+      span{
+        font-weight: 700;
+      }
+    }
+    .more{
+      margin-top: 50px;
+      text-align: right;
+      a{
+        color: $grey;
+        font-size: 20px;
+      }
+    }
+  }
+  .border-wrapper-add{
+    border: 1px solid $strong-red;
+    border-radius: 20px;
+    padding: 30px;
+    height: 100%;
+    .plus{
+      color: $strong-red;
+      font-size: 50px;
+      text-align: center;
+      margin-top: 215%;
+    }
+    .text{
+      color: $strong-red;
+      font-size: 10px;
+      text-align: center;
     }
   }
 }
