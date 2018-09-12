@@ -1,0 +1,152 @@
+.Personal_cabinet_setting {
+  margin-top: 150px; }
+  .Personal_cabinet_setting .personal-information-link a {
+    color: #95989A;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative; }
+    .Personal_cabinet_setting .personal-information-link a:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      border-bottom: 1px solid #95989A;
+      transition: 0.3s; }
+    .Personal_cabinet_setting .personal-information-link a:hover:after {
+      width: 100%; }
+  .Personal_cabinet_setting .personal-information-link span {
+    color: #95989A;
+    margin: 0 15px; }
+
+.tabs {
+  width: 100%;
+  margin-top: 50px; }
+  .tabs .nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center; }
+    .tabs .nav li {
+      list-style: none; }
+      .tabs .nav li a {
+        display: block;
+        background: #A5BCD8;
+        color: #fff;
+        align-items: center;
+        font-size: 20px;
+        padding: 25px;
+        cursor: pointer; }
+        .tabs .nav li a.active {
+          background: #536AB5; }
+      .tabs .nav li:nth-child(1) a {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px; }
+      .tabs .nav li:last-child a {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; }
+
+.tab-content {
+  margin-top: 50px; }
+  .tab-content .text-center {
+    text-align: center; }
+  .tab-content img {
+    margin-bottom: 25px; }
+  .tab-content .link-banner {
+    width: 100%;
+    font-size: 24px;
+    display: block;
+    text-align: center; }
+
+.label-input label {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  color: #95989A;
+  font-size: 20px; }
+.label-input input {
+  border: 1px solid #95989A;
+  border-radius: 30px;
+  width: 100%;
+  color: #95989A;
+  font-size: 20px;
+  height: 55px;
+  padding: 0 15px; }
+  .label-input input:focus {
+    outline: none; }
+  .label-input input:active {
+    border: 1px solid #536AB5; }
+
+.wrapperFromSocial span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #536AB5;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 8px; }
+  .wrapperFromSocial span svg {
+    font-size: 24px;
+    color: #fff; }
+
+.name {
+  color: #536AB5;
+  font-size: 35px; }
+  .name span {
+    margin-left: 50px;
+    font-size: 18px;
+    color: #7FB021;
+    font-weight: 700; }
+
+.company_info p {
+  font-size: 20px;
+  color: #95989A; }
+  .company_info p span {
+    color: #536AB5;
+    font-weight: 700; }
+.company_info .link-banner {
+  font-size: 19px;
+  padding: 10px 20px;
+  float: right;
+  margin-bottom: 15px; }
+
+.pageLine {
+  border: 1px solid #536AB5;
+  width: 100%;
+  margin: 50px 0; }
+
+.overview h3 {
+  padding: 0; }
+.overview p {
+  width: 100%;
+  font-size: 20px;
+  color: #95989A; }
+.overview span {
+  color: #536AB5; }
+.overview .tabs .nav {
+  justify-content: end; }
+  .overview .tabs .nav li:nth-child(1) {
+    border-right: 1px solid #95989A;
+    padding-right: 30px; }
+  .overview .tabs .nav li:last-child {
+    padding-left: 30px; }
+  .overview .tabs .nav a {
+    color: #95989A;
+    background: transparent;
+    padding: 0; }
+    .overview .tabs .nav a.active {
+      color: #D11216;
+      background: transparent; }
+
+.table-bordered {
+  width: 100%; }
+  .table-bordered thead {
+    background: #95989A; }
+  .table-bordered th {
+    text-align: center !important;
+    color: #fff;
+    padding: 10px; }
+
+/*# sourceMappingURL=personal_cabinet_setting.css.map */
